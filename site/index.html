@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.T.I Shop - L'univers magique des tout-petits 🌟</title>
+    <meta name="description" content="Découvrez I.T.I Shop, votre boutique en ligne spécialisée dans les produits pour enfants. Jouets éducatifs, vêtements, accessoires - Qualité et sécurité garanties !">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fredoka+One:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>I.T.I Shop</h1>
+                    <span class="logo-subtitle">🧸 L'univers des petits</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#categories">Nos Produits</a></li>
+                    <li><a href="#about">Pourquoi Nous</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+                
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="accueil">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        L'aventure commence ici ! 🚀
+                        <span class="highlight">Des produits magiques</span>
+                        pour vos petits explorateurs
+                    </h1>
+                    <p class="hero-description">
+                        Découvrez notre sélection exclusive de jouets éducatifs, vêtements adorables et accessoires sécurisés. 
+                        Chaque produit est choisi avec amour pour accompagner le développement de votre enfant.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">Découvrir nos produits ✨</button>
+                        <button class="btn btn-secondary">Voir la vidéo <i class="fas fa-play"></i></button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">15,000+</span>
+                            <span class="stat-label">Familles heureuses</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2,500+</span>
+                            <span class="stat-label">Produits disponibles</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24h</span>
+                            <span class="stat-label">Livraison express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-elements">
+                        <div class="float-item float-1">🎈</div>
+                        <div class="float-item float-2">⭐</div>
+                        <div class="float-item float-3">🌈</div>
+                        <div class="float-item float-4">🦄</div>
+                    </div>
+                    <div class="hero-product-showcase">
+                        <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Enfant jouant avec des jouets colorés">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explorez nos univers magiques 🌟</h2>
+                <p class="section-subtitle">Chaque catégorie est pensée pour éveiller la curiosité et développer les talents de vos petits</p>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card" data-category="jouets">
+                    <div class="category-icon">🧸</div>
+                    <h3>Jouets & Peluches</h3>
+                    <p>Des compagnons doux et des jeux stimulants pour développer l'imagination</p>
+                    <span class="product-count">850+ produits</span>
+                    <button class="category-btn">Explorer</button>
+                </div>
+                
+                <div class="category-card" data-category="educatif">
+                    <div class="category-icon">📚</div>
+                    <h3>Éducatif & Créatif</h3>
+                    <p>Livres, puzzles et jeux éducatifs pour apprendre en s'amusant</p>
+                    <span class="product-count">420+ produits</span>
+                    <button class="category-btn">Explorer</button>
+                </div>
+                
+                <div class="category-card" data-category="vetements">
+                    <div class="category-icon">👕</div>
+                    <h3>Mode Enfantine</h3>
+                    <p>Vêtements confortables et stylés, parfaits pour tous les moments</p>
+                    <span class="product-count">650+ produits</span>
+                    <button class="category-btn">Explorer</button>
+                </div>
+                
+                <div class="category-card" data-category="bebe">
+                    <div class="category-icon">🍼</div>
+                    <h3>Univers Bébé</h3>
+                    <p>Tout le nécessaire pour les premiers mois de votre petit trésor</p>
+                    <span class="product-count">380+ produits</span>
+                    <button class="category-btn">Explorer</button>
+                </div>
+                
+                <div class="category-card" data-category="outdoor">
+                    <div class="category-icon">🏃</div>
+                    <h3>Sport & Extérieur</h3>
+                    <p>Équipements pour bouger, explorer et s'épanouir au grand air</p>
+                    <span class="product-count">290+ produits</span>
+                    <button class="category-btn">Explorer</button>
+                </div>
+                
+                <div class="category-card" data-category="decoration">
+                    <div class="category-icon">🎨</div>
+                    <h3>Déco & Rangement</h3>
+                    <p>Créez un cocon douillet et organisé pour votre enfant</p>
+                    <span class="product-count">520+ produits</span>
+                    <button class="category-btn">Explorer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos coups de cœur du moment 💝</h2>
+                <p class="section-subtitle">Les produits préférés des familles I.T.I Shop</p>
+            </div>
+            
+            <div class="products-slider">
+                <div class="product-card">
+                    <div class="product-badge">🔥 Bestseller</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Puzzle éducatif">
+                    </div>
+                    <div class="product-info">
+                        <h3>Puzzle Monde Magique</h3>
+                        <p>Puzzle 100 pièces avec animaux fantastiques</p>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-count">(287 avis)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">24,99 €</span>
+                            <span class="old-price">29,99 €</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-badge">✨ Nouveau</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Peluche licorne">
+                    </div>
+                    <div class="product-info">
+                        <h3>Licorne Câline Luna</h3>
+                        <p>Peluche douce et lumineuse pour des nuits sereines</p>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-count">(156 avis)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">34,99 €</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-badge">🎯 Top vente</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Kit créatif">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kit Artiste en Herbe</h3>
+                        <p>Set complet pour dessiner, peindre et créer</p>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-count">(342 avis)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">42,99 €</span>
+                            <span class="old-price">49,99 €</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-badge">🌟 Éco-responsable</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Jouets en bois">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cubes Alphabet Nature</h3>
+                        <p>Jouet en bois certifié pour apprendre l'alphabet</p>
+                        <div class="product-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-count">(198 avis)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">28,99 €</span>
+                        </div>
+                        <button class="add-to-cart-btn">Ajouter au panier</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn">&lt;</button>
+                <button class="slider-btn next-btn">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pourquoi les familles nous font confiance ? 🤝</h2>
+                <p class="section-subtitle">Plus qu'une boutique, nous sommes vos partenaires dans l'épanouissement de vos enfants</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Sécurité Garantie</h3>
+                    <p>Tous nos produits respectent les normes européennes CE et sont testés en laboratoire pour la sécurité de vos enfants.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Livraison Express</h3>
+                    <p>Livraison gratuite dès 50€ d'achat. Commande avant 14h = expédition le jour même partout en France.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3>Qualité Premium</h3>
+                    <p>Sélection rigoureuse de marques reconnues et produits durables pour accompagner la croissance de votre enfant.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Conseil Expert</h3>
+                    <p>Notre équipe de puéricultrices vous accompagne pour choisir les produits adaptés à l'âge et aux besoins de votre enfant.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Retour Facile</h3>
+                    <p>30 jours pour changer d'avis. Retour gratuit et remboursement rapide, parce que la satisfaction de votre famille est primordiale.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💝</div>
+                    <h3>Emballage Cadeau</h3>
+                    <p>Emballage cadeau gratuit et carte personnalisée pour faire plaisir à vos proches lors des occasions spéciales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ce que disent les familles I.T.I Shop 💕</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"I.T.I Shop est devenu notre boutique de référence ! Les produits sont de qualité, l'emballage soigné et ma fille de 4 ans adore tout ce que nous commandons. Le service client est aux petits soins."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b672?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Sarah M.">
+                        <div class="author-info">
+                            <h4>Sarah M.</h4>
+                            <span>Maman de Léa, 4 ans</span>
+                            <div class="rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Livraison ultra rapide et produits conformes aux descriptions. Mes jumeaux de 6 ans sont ravis de leurs nouveaux jouets éducatifs. Je recommande vivement cette boutique !"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Marc D.">
+                        <div class="author-info">
+                            <h4>Marc D.</h4>
+                            <span>Papa de Tom et Max, 6 ans</span>
+                            <div class="rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"En tant que jeune maman, I.T.I Shop m'a rassurée avec ses produits certifiés et ses conseils d'experts. Mon bébé de 8 mois s'épanouit avec leurs jouets d'éveil."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Emma L.">
+                        <div class="author-info">
+                            <h4>Emma L.</h4>
+                            <span>Maman de Chloé, 8 mois</span>
+                            <div class="rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Rejoignez la famille I.T.I Shop ! 🎉</h2>
+                    <p>Recevez en avant-première nos nouveautés, offres exclusives et conseils pour l'épanouissement de vos enfants</p>
+                    <ul class="newsletter-benefits">
+                        <li>✨ 10% de réduction sur votre première commande</li>
+                        <li>🎁 Offres exclusives réservées aux abonnés</li>
+                        <li>📰 Guide mensuel pour parents modernes</li>
+                    </ul>
+                </div>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre adresse e-mail" required>
+                        <button type="submit" class="subscribe-btn">S'abonner</button>
+                    </div>
+                    <label class="checkbox-label">
+                        <input type="checkbox" required>
+                        <span class="checkmark"></span>
+                        J'accepte de recevoir les newsletters et promotions I.T.I Shop
+                    </label>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>I.T.I Shop</h3>
+                        <p>L'univers magique des tout-petits</p>
+                    </div>
+                    <p class="footer-description">Votre boutique de confiance pour accompagner chaque étape de la croissance de vos enfants avec des produits sélectionnés avec amour.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Nos Produits</h4>
+                    <ul>
+                        <li><a href="#">Jouets & Peluches</a></li>
+                        <li><a href="#">Éducatif & Créatif</a></li>
+                        <li><a href="#">Mode Enfantine</a></li>
+                        <li><a href="#">Univers Bébé</a></li>
+                        <li><a href="#">Sport & Extérieur</a></li>
+                        <li><a href="#">Déco & Rangement</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Service Client</h4>
+                    <ul>
+                        <li><a href="#">Aide & FAQ</a></li>
+                        <li><a href="#">Livraison & Retours</a></li>
+                        <li><a href="#">Guide des tailles</a></li>
+                        <li><a href="#">Sécurité des produits</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                        <li><a href="#">Suivi de commande</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Nous Contacter</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+                        <p><i class="fas fa-envelope"></i> hello@itishop.fr</p>
+                        <p><i class="fas fa-clock"></i> Lun-Ven 9h-18h</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Rue de l'Enfance<br>75000 Paris, France</p>
+                    </div>
+                    <div class="payment-methods">
+                        <h5>Paiement sécurisé</h5>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-paypal"></i>
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 I.T.I Shop. Tous droits réservés. | <a href="#">CGV</a> | <a href="#">Politique de confidentialité</a> | <a href="#">Cookies</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div class="fab-container">
+        <button class="fab main-fab">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="fab-options">
+            <button class="fab option-fab" title="Chat en direct">
+                <i class="fas fa-comment-dots"></i>
+            </button>
+            <button class="fab option-fab" title="Appelez-nous">
+                <i class="fas fa-phone"></i>
+            </button>
+            <button class="fab option-fab" title="Email">
+                <i class="fas fa-envelope"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
